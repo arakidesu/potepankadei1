@@ -416,13 +416,6 @@ p {
 .list-text .sp-dn {
     display: none;
 }
-.desc-list .example {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 40px;
-    border-radius: 20px;
-    padding: 30px;
-}
 .desc-list .example.performance {
     padding: 40px 70px;
 }
@@ -431,7 +424,7 @@ p {
     width: 100%;
     margin-top: 40px;
     border-radius: 20px;
-    padding: 30px;
+    padding: 0px;
 }
 .desc-list .example-list {
     margin: 0 -60px;
@@ -481,11 +474,8 @@ p {
     width: calc(100% / 3);
     display: flex;
 }
-.desc-list .example-list {
-    margin: 0 -60px;
-}
 .desc-list .example.performance {
-    padding: 40px 70px;
+    padding: 40px 0px;
 }
 
 
